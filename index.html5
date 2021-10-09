@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head><title>DATA MAHASISWA</title></head>
+<body>
+	<form action="proses.php"  method="post">
+	<table  width="452" border="0" align="center"  cellpadding="0" cellspacing="1"  bgcolor="#000" style="padding: 2px">
+		<tr>
+			<td  height="40" align="center"  bgcolor="#000"><font  color="#FFFFFF">
+			<b>INPUT DATA MAHASISWA</b></font></td>
+		</tr>
+		<tr>
+			<td  bgcolor="#FFFFFF"><table width="452"  border="0" align="center" cellpadding="5"  cellspacing="0">
+		<tr>
+			<td  width="113">Nama</td><td width="11">:</td>
+			<td  width="237"><input name="nama" type="text" size="30" maxlength="30"></td>
+		</tr>
+		<tr>
+			<td>NPM</td>
+			<td>:</td>
+			<td><input  name="npm" type="text" size="" maxlength="30"></td>
+		</tr>
+		<tr>
+			<td>No. HP</td>
+			<td>:</td>
+			<td><input  name="hp" type="text" size="30" maxlength="30"></td>
+		</tr>
+		<tr>
+			<td>Mata Kuliah</td>
+			<td>:</td>
+			<td>
+				<input type="radio" name="matkul" value="PemrogramanInternet dan E-commerce">PemrogramanInternet dan E-commerce<br>
+				<input type="radio" name="matkul" value="Pemrograman Berorientasi Objek">Pemrograman Berorientasi Objek<br>
+				<input type="radio" name="matkul" value="Sistem Operasi">Sistem Operasi<br>
+				<input type="radio" name="matkul" value="Grafika Komputasi">Grafika Komputasi<br>
+				<input type="radio" name="matkul" value="Metode Numerik">Metode Numerik<br>
+				<input type="radio" name="matkul" value="Teori Bahasa Automata">Teori Bahasa Automata<br>
+				<input type="radio" name="matkul" value="Bahasa Inggris">Bahasa Inggris<br>
+			</td>
+		</tr>
+		<tr>
+			<td>Jam</td>
+			<td>:</td>
+			<td>
+			<select name="jam">
+				<option>--  Jam Kuliah --</option>
+				<option>Senin, 08.00 WIB</option>
+				<option>Senin, 14.00 WIB</option>
+				<option>Selasa, 08.00 WIB</option>
+				<option>Selasa, 11.00 WIB</option>
+				<option>Selasa, 14.00 WIB</option>
+				<option>Rabu, 11.00 WIB</option>
+				<option>Kamis, 09.00 WIB</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Saran/Komentar</td>
+			<td>:</td>
+			<td><textarea name="saran" cols="30"  rows="5"></textarea></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td><input type="submit" name="submit" value="SIMPAN"> </td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
